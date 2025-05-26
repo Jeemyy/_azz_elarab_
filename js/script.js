@@ -1,15 +1,3 @@
-// ملف script.js أو داخل <script> في آخر الـ HTML
-
-// نحدد جميع روابط "عرض المزيد"
-const serviceLinks = document.querySelectorAll('a#services-link');
-
-serviceLinks.forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault(); 
-    alert('تفاصيل الخدمة سيتم إضافتها لاحقًا ✨');
-  });
-});
-// ملف script.js أو داخل <script>
 
 const sec2 = document.getElementById('sec2');
 

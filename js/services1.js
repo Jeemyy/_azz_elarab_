@@ -1,10 +1,10 @@
 const cards = document.querySelector('.cards');
-const counter = 99;
+const counter = 28;
 
 // Generate images dynamically
 for (let i = 0; i < counter; i++) {
   const img = document.createElement('img');
-  img.src = `../images/images/img${i}.jpg`;
+  img.src = `../images/services1/img${i}.jpg`;
   img.alt = `Image ${i}`;
   cards.appendChild(img);
 }
